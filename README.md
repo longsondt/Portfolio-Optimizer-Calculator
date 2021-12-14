@@ -19,11 +19,13 @@ so that a *beginner-level* finance enthusiast could use to create an optimized s
  and the Sharpe Ratio of the optimized portfolio. 
  
   ## Features
-  1. Provides three different methods to estimating expected returns of each stock, 
-  three different methods to calculate the risk model, and four different ways to optimze the portfolio, 
-  as well as providing brief explanation for each of the available methods. 
-  2. Allows the users to specify, if wanted, the weight bound requirement for each, or all tickers in the portfolio. 
-  3. Handle any invalid input from the user without breaking or requiring the restarting the program 
+1. Suggests discrete allocation of the securities in the portfolio based on the mean-variance analysis. 
+2. Provides three different methods to estimating expected returns of each stock (*Mean historical returns, EMA historial returns, and CAPM returns*), 
+three different methods to calculate the risk model (*Sample-covariance, exponentially-weighted covariance, and shrinkage covariance matrix*), 
+and four different ways to optimize the portfolio (*Optimizes for max Sharpe ratio, optimizes for minimum volatility, optimizes for efficient return, and optimized for efficient risk*) 
+3. Automatically grabs historical price data for the users.
+4. Allows the users to specify, if they wanted, the weight bound requirement for each, or all tickers in the portfolio. 
+5. Handles any invalid input from the user without breaking or requiring the restarting the program 
  
   ## Some limitations of this calculator...
    __1. The calculation methods provided in this calculator are not all the methods that you can use to optimize your portfolio...__
