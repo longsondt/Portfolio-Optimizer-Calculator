@@ -43,5 +43,6 @@ and four different ways to optimize the portfolio (*Optimizes for max Sharpe rat
    been able to do that is to use a *yfinance* library function to check each time whether the ticker the users have inputted is correct or not. Therefore, tickers that 
    are not on Yahoo! Finance will not work. 
    
-  
+  ## How to try the program
+  The best way to try the program without needing to have an IDE is to download the Portfolio_Optimization_Calculator.**ipynb** file and run it with [Google Colab](https://research.google.com/colaboratory/).
     
